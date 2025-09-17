@@ -410,3 +410,59 @@ hr {
         grid-template-columns: 2fr;
     }
 }
+
+.card-propuesta {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.card-propuesta:hover {
+    transform: translateY(-5px);
+}
+
+.card-propuesta h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+}
+
+.card-propuesta iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+}
+
+.intro-propuestas {
+    text-align: center;
+    max-width: 900px;
+    margin: 5rem auto;
+    padding: 0 1rem;
+}
+
+.intro-propuestas h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro-propuestas p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+.grid-propuestas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
